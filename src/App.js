@@ -9,7 +9,7 @@ const App = () => {
   const [data, setData] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
-  const [limit, setLimit] = useState(5); // Default limit is 5
+  const [limit, setLimit] = useState(10); // Default limit is 5
 
   useEffect(() => {
     const fetchData = async () => {
